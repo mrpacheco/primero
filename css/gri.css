@@ -1,0 +1,287 @@
+/*--------------------------------------------------------------
+# Gri
+--------------------------------------------------------------*/
+
+
+
+.gri-banner {
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  background: url(../img/banner_gri_indice.jpg) no-repeat center center;
+  background-size:cover;
+  padding-top: 60px;
+}
+
+.filter-btn {
+    /* width: 200px; */
+    min-height: 70px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #007dc3;
+    cursor: pointer;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 2px 6px 15px 0px rgba(0,0,0,0.28);
+    -moz-box-shadow: 2px 6px 15px 0px rgba(0,0,0,0.28);
+    box-shadow: 2px 6px 15px 0px rgba(0,0,0,0.28);
+    /* margin-right: 20px; */
+}
+
+.filter-btn:hover {
+    background-color: #2da0e2;
+}
+
+.filter-active {
+    background-color: #2da0e2;
+}
+
+.ta-gri thead th {
+    vertical-align: middle;
+    border-bottom: 0px solid #dee2e6;
+    background-color: #007dc3;
+    color: #ffffff;
+    border-right: 6px solid #ffffff;
+    /*font-size: 1rem;*/
+    text-align: center;
+    font-family: Myriad-Bold;
+  line-height:15px;
+    padding: 5px;
+}
+
+.ta-gri thead th:last-child {
+    border-right: 0px solid #ffffff;
+}
+
+.gri-header {
+    background-color: #e1dfdf;
+    font-family: Myriad-Bold;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.gri-subs {
+    background-color: #d0dff3;
+    color: #002f87;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.gritab td {
+    background-color: #f5f7fc;
+    font-family: Myriad-Light;
+    font-size: .9rem;
+    font-weight: normal!important;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    border-right: 6px solid #ffffff;
+}
+
+.gritab td:first-child {
+    font-family: Myriad-Bold;
+}
+
+.gritab td:last-child {
+    border-right: 0px solid #ffffff;
+}
+
+.valor-header {
+    background-color: #f27a30;
+    color: #4d4d4f;
+    font-family: Myriad-Bold;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.valor-subs {
+    background-color: #fbd7c1;
+    color: #002f87;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.valtab td {
+    background-color: #fef2ea;
+    font-family: Myriad-Light;
+    font-size: .9rem;
+    font-weight: normal!important;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    border-right: 6px solid #ffffff;
+}
+
+.valtab td p {
+    font-size: .9rem;
+    font-weight: normal;
+    color: #212529;
+}
+
+.valtab td:first-child {
+    font-family: Myriad-Bold;
+}
+
+.valtab td:last-child {
+    border-right: 0px solid #ffffff;
+}
+
+
+
+.ambiente-header {
+    background-color: #7ac143;
+    color: #4d4d4f;
+    font-family: Myriad-Bold;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.ambiente-subs {
+    background-color: #d5e9c1;
+    color: #002f87;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.ambtab td {
+    background-color: #f6faf2;
+    font-family: Myriad-Light;
+    font-size: .9rem;
+    font-weight: normal!important;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    border-right: 6px solid #ffffff;
+    vertical-align: middle;
+}
+
+.ambtab td p {
+    font-size: .9rem;
+    font-weight: normal;
+    color: #212529;
+}
+
+.ambtab td table th {
+    background-color: #7ac143;
+    color: #002f87;
+}
+
+.ambtab td table td {
+    background-color: #f6faf2;
+    font-family: Myriad-Light;
+    font-size: .9rem;
+    font-weight: normal!important;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    border-right: 6px solid #ffffff;
+}
+
+.ambtab td table td:first-child {
+    font-family: Myriad-Light;
+}
+
+.ta-line {
+    border-bottom: 3px solid #dcddde;
+    font-family: Myriad-Bold!important;
+}
+
+.ambtab td:first-child {
+    font-family: Myriad-Bold;
+}
+
+.ambtab td:last-child {
+    border-right: 0px solid #ffffff;
+}
+
+.social-header {
+    background-color: #fdb71a;
+    color: #4d4d4f;
+    font-family: Myriad-Bold;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.social-subs {
+    background-color: #ffe6ba;
+    color: #002f87;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.sostab td {
+    background-color: #fff9f0;
+    font-family: Myriad-Light;
+    font-size: .9rem;
+    font-weight: normal!important;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    border-right: 6px solid #ffffff;
+    vertical-align: middle;
+}
+
+.sostab td p {
+    font-size: .9rem;
+    font-weight: normal;
+    color: #212529;
+}
+
+.sostab td table th {
+    background-color: #fdb71a;
+    color: #002f87;
+}
+
+.sostab td table td {
+    background-color: #fff9f0;
+    font-family: Myriad-Light;
+    font-size: .9rem;
+    font-weight: normal!important;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    border-right: 6px solid #ffffff;
+}
+
+.sostab td table td:first-child {
+    font-family: Myriad-Light;
+}
+
+.ta-line {
+    border-bottom: 3px solid #dcddde;
+    font-family: Myriad-Bold!important;
+}
+
+.sostab td:first-child {
+    font-family: Myriad-Bold;
+}
+
+.sostab td:last-child {
+    border-right: 0px solid #ffffff;
+}
+
+.gestion-header {
+    background-color: #4d4d4f;
+    color: #ffffff;
+    font-family: Myriad-Bold;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.gestab td {
+    background-color: #edecec;
+    font-family: Myriad-Light;
+    font-size: .9rem;
+    font-weight: normal!important;
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    border-right: 6px solid #ffffff;
+    vertical-align: middle;
+}
+
+.gestab td:first-child {
+    font-family: Myriad-Bold;
+}
+
+.gestab td:last-child {
+    border-right: 0px solid #ffffff;
+}
