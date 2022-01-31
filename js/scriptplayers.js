@@ -54,10 +54,10 @@ function setVisibility() {
     
     if (tema && pilares ) {
       
-      el.style.display = 'block';
+      el.style.opacity = '1';
     } else {
       
-      el.style.display = 'none';
+      el.style.opacity = '0';
     }
   });
 

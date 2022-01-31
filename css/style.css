@@ -385,19 +385,21 @@ strong{
   background-color: #007dc3;
 }
 .mega-menu .cont8submenu {
-  background-image: url(../img/menu/bgorangesfru.jpg);
+  background-image: url(../img/menu/bgorangesfru.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #000;
 }
 .mega-menu .cont9submenu {
   background-color: #5c90b1;
 }
 .mega-menu .cont10submenu {
-  background-image: url(../img/menu/bgstrawb.jpg);
+  background-image: url(../img/menu/bgstrawb.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #000;
 }
 
 .mega-menu .cont11submenu {
@@ -457,6 +459,12 @@ strong{
 list-style: none;
 margin: 10px;
   padding-left: 15px;
+}
+
+.mega-menu .gridmenu .contsubmenus ul li a:hover {
+  text-decoration: underline;
+  color: #ffffff; 
+  
 }
 
 
@@ -12933,7 +12941,10 @@ display: block;
 #innovacion_02 .filters2 ul li{
   margin: 0;
   padding: 2px  1px 2px 5px;
-   
+  -moz-transition:all .2s;
+  -o-transition:all .2s;
+  -webkit-transition:all .2s;
+  transition:all .2s;
 
 }
 
@@ -15220,7 +15231,7 @@ display: block;
   color: #4A5B6D;
   display: inline-block;
   font-size: 14px;
-  font-family: Myriad-Light;
+
   text-transform: none;
   padding: 0;
   padding-right: 15px;
