@@ -57,7 +57,7 @@ function setVisibility() {
       el.style.opacity = '1';
     } else {
       
-      el.style.opacity = '0';
+      el.style.opacity = '.3';
     }
   });
 
