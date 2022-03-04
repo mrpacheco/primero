@@ -104,10 +104,20 @@ a.link-secondary:hover {
   font-family: Bogle-Bold;
 }
 
-h1, h2, h3 {
+h1, h2 {
   
   text-transform: uppercase;
   font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 30px;
+  font-family: Bogle-bold;
+  
+}
+
+h3 {
+  
+  text-transform: uppercase;
+  font-size: 28px;
   line-height: 32px;
   margin-bottom: 30px;
   font-family: Bogle-bold;
@@ -245,6 +255,324 @@ strong {
 --color: #ec318c;
 }
 
+
+/*--------------------------------------------------------------
+# STYLES 
+--------------------------------------------------------------*/
+.txtbold {
+
+  font-family: Bogle-Bold;
+
+}
+
+.txtblackb {
+
+  font-family: Bogle-Black;
+
+}
+
+.txtunderline {
+  text-decoration: underline;
+}
+
+.txtvinetas {
+  font-family: Bogle-Bold;
+  text-transform: uppercase;
+
+}
+
+.txthighlightup {
+  font-family: Bogle-Bold;
+  text-transform: uppercase;
+
+}
+
+
+
+.whitetxt {
+
+  color: #ffffff;
+}
+
+
+.blueswaltxt {
+
+  color: #007dc3;
+
+}
+
+
+.blueswaltxt11 {
+
+  color: #1173cb;
+
+}
+
+.orangee9txt {
+ color: #e97119;
+}
+
+
+.yellowtxt {
+  color: #F1B634;
+}
+
+.green7ctxt {
+  
+  color: #7cc04b;
+
+  
+}
+
+.grey1txt {
+  color: #EEF2F4;
+}
+
+.gray4a5b6d {
+  color: #4a5b6d;
+}
+
+.colorbluesky {
+ color: #1172CA;
+}
+
+.bgwhite {
+  background-color: #FFFFFF;
+}
+
+
+.bggrey1 {
+  background-color: #EEF2F4;
+}
+
+
+.bgorange {
+  background-color: #F27A30;
+}
+
+.bgorangee9 {
+  background-color: #e97119;
+}
+
+.bgyellow {
+  background-color: #FCBA42;
+}
+
+
+.bggreenb {
+  background-color: #7CC04B;
+}
+
+.bgblueligh {
+  background-color: #1173CB;
+}
+
+.bgbluesky {
+  background-color: #6DAEDD;
+}
+
+.bgbluemid {
+  background-color: #2badd9;
+
+}
+
+.bgbluetopdark {
+  background-color: #00539b;
+}
+
+.bgpuurple {
+  background-color: #9169c9;
+}
+
+.bgrosepale {
+  background-color: #FFF8EB;
+}
+
+
+
+
+
+.bgdarkgreyblue {
+  background-color: #4A5B6D;
+}
+
+a.btnprincipal {
+  display: block;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  color:#ffffff;
+  border: #FFFFFF 1px solid;
+  text-decoration: none;
+  width: 280px;
+  height: fit-content;
+  text-align: center;
+  
+}
+
+a.btnprincipaldark {
+  display: block;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  color:#4A5B6D;
+  border: #4A5B6D 1px solid;
+  text-decoration: none;
+  width:fit-content;
+  height: fit-content;
+  text-align: center;
+  font-family: Bogle-Regular;
+}
+
+a.btnprincipaldark:hover {
+ font-family: Bogle-Bold;
+ color:#4A5B6D;
+}
+
+
+
+a.btnprincipal .iconfaw {
+  font-size: 14px;
+  margin-left: 5px;
+  vertical-align: baseline;
+}
+
+
+a.btnprincipal:hover {
+  background-color: #FFFFFF;
+  color: #00339F;
+  font-family: Bogle-Regular;
+}
+
+button:focus {
+  outline: 0;
+  outline: 0;
+}
+
+.subtitle1 {
+
+  color: #4A5B6D ;
+  
+ 
+}
+
+.btnlinknormal {
+  display: block;
+  color: #4A5B6D;
+  text-decoration: underline;
+  font-family: Bogle-Regular;
+}
+
+.btnlinknormal:hover {
+  color: #4A5B6D;
+  text-decoration: underline;
+  font-family: Bogle-Bold;
+}
+
+.icoyellcir {
+
+  width: 30px;
+  height: auto;
+  margin: 5px 5px 0 0;
+  
+}
+
+
+.icoyellcirbig {
+
+  width: 50px;
+  height: auto;
+  margin: 5px 10px 0 0;
+  
+}
+
+.icosvine {
+
+  width: 38px;
+  margin: 0 20px 0 0;
+
+}
+
+.icosubtitles {
+  margin-bottom: 20px;
+  margin-top: 40px;
+  width: 70px;
+  height: auto;
+}
+
+
+#intersecllax {
+  height: 150px;
+}
+
+.icodeco3cir {
+  width: 60px;
+  margin: 15px;
+}
+
+.contsecllax {
+  background-image: url(../img/nuestro-negocio/imgwalmartmexicali.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+
+}
+
+.txtbigdata {
+ font-family: Bogle-Black;
+  font-size: 34px;
+  letter-spacing: 2px;
+
+}
+
+.txtregualrdata {
+  font-family: Bogle-Black;
+  font-size: 16px;
+
+}
+
+.txtnumberf24 {
+  font-size: 24px;
+  margin-bottom: 0px;
+  line-height: 26px;
+  font-family: Bogle-Black;
+}
+
+
+.imgcifra{
+
+  width: 130px;
+  height: 130px;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  background-image: url(../img/home/imgbtndowncifras.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+ 
+ }
+
+.icocifra{
+ 
+   width: 50px;
+   display: block;
+   
+   margin: auto;
+  
+  }
+
+.text-uderline {
+
+  text-decoration: underline;
+
+}
+
+.txtbtn {
+  text-align: center;
+  background-color: #1173CB;
+  padding: 15px;
+
+}
 
 
 /*--------------------------------------------------------------
@@ -899,237 +1227,6 @@ margin: 10px;
 
 }/*-END  MOBILE-*/
 
-
-/*--------------------------------------------------------------
-# STYLES 
---------------------------------------------------------------*/
-.txtbold {
-
-  font-family: Bogle-Bold;
-
-}
-
-.txtblackb {
-
-  font-family: Bogle-Black;
-
-}
-
-.txtunderline {
-  text-decoration: underline;
-}
-
-.txtvinetas {
-  font-family: Bogle-Bold;
-  text-transform: uppercase;
-
-}
-
-.txthighlightup {
-  font-family: Bogle-Bold;
-  text-transform: uppercase;
-
-}
-
-
-
-.whitetxt {
-
-  color: #ffffff;
-}
-
-
-.blueswaltxt {
-
-  color: #007dc3;
-}
-
-
-.yellowtxt {
-  color: #F1B634;
-}
-
-.grey1txt {
-  color: #EEF2F4;
-}
-
-.gray4a5b6d {
-  color: #4a5b6d;
-}
-
-.colorbluesky {
- color: #1172CA;
-}
-
-.bgwhite {
-  background-color: #FFFFFF;
-}
-
-
-.bggrey1 {
-  background-color: #EEF2F4;
-}
-
-
-.bgorange {
-  background-color: #F27A30;
-}
-
-.bgyellow {
-  background-color: #FCBA42;
-}
-
-
-.bggreenb {
-  background-color: #7CC04B;
-}
-
-.bgblueligh {
-  background-color: #1173CB;
-}
-
-.bgbluesky {
-  background-color: #6DAEDD;
-}
-
-
-
-.bgdarkgreyblue {
-  background-color: #4A5B6D;
-}
-
-a.btnprincipal {
-  display: block;
-  padding: 5px 15px;
-  text-transform: uppercase;
-  color:#ffffff;
-  border: #FFFFFF 1px solid;
-  text-decoration: none;
-  width: 280px;
-  height: fit-content;
-  text-align: center;
-}
-
-a.btnprincipaldark {
-  display: block;
-  padding: 5px 15px;
-  text-transform: uppercase;
-  color:#4A5B6D;
-  border: #4A5B6D 1px solid;
-  text-decoration: none;
-  width:fit-content;
-  height: fit-content;
-  text-align: center;
-  font-family: Bogle-Regular;
-}
-
-a.btnprincipaldark:hover {
- font-family: Bogle-Bold;
- color:#4A5B6D;
-}
-
-
-
-a.btnprincipal .iconfaw {
-  font-size: 14px;
-  margin-left: 5px;
-  vertical-align: baseline;
-}
-
-
-a.btnprincipal:hover {
-  background-color: #FFFFFF;
-  color: #00339F;
-  font-family: Bogle-Regular;
-}
-
-button:focus {
-  outline: 0;
-  outline: 0;
-}
-
-.subtitle1 {
-
-  color: #4A5B6D ;
-  
- 
-}
-
-.btnlinknormal {
-  display: block;
-  color: #4A5B6D;
-  text-decoration: underline;
-  font-family: Bogle-Regular;
-}
-
-.btnlinknormal:hover {
-  color: #4A5B6D;
-  text-decoration: underline;
-  font-family: Bogle-Bold;
-}
-
-.icoyellcir {
-
-  width: 30px;
-  height: auto;
-  margin: 5px 5px 0 0;
-  
-}
-
-
-.icoyellcirbig {
-
-  width: 50px;
-  height: auto;
-  margin: 5px 10px 0 0;
-  
-}
-
-.icosvine {
-
-  width: 38px;
-  margin: 0 20px 0 0;
-
-}
-
-.icosubtitles {
-  margin-bottom: 20px;
-  margin-top: 40px;
-  width: 70px;
-  height: auto;
-}
-
-
-#intersecllax {
-  height: 150px;
-}
-
-.icodeco3cir {
-  width: 60px;
-  margin: 15px;
-}
-
-.contsecllax {
-  background-image: url(../img/nuestronegocio/imgwalmartmexicali.jpg);
-  background-size: contain;
-  background-attachment: fixed;
-  background-position: top center;
-  background-repeat: no-repeat;
-
-}
-
-.txtbigdata {
- font-family: Bogle-Black;
-  font-size: 34px;
-  letter-spacing: 2px;
-
-}
-
-.txtregualrdata {
-  font-family: Bogle-Black;
-  font-size: 16px;
-
-}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -2741,7 +2838,7 @@ font-size: 12px;
 
 
 #nuestronegocio3 .bgimgbodeemplo {
-  background-image: url(../img/nuestronegocio/imgbodegaemplyee.png);
+  background-image: url(../img/nuestro-negocio/imgbodegaemplyee.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
@@ -2810,7 +2907,7 @@ font-size: 12px;
  #nuestronegocio5 {
   
   height: 90vh;
-  background-image: url(../img/nuestronegocio/imgbgbodegaurera.jpg);
+  background-image: url(../img/nuestro-negocio/imgbgbodegaurera.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -3039,11 +3136,782 @@ font-size: 12px;
 
 #nuestronegocio12 {
   overflow: hidden;
+  height: auto;
+  padding-top: 1%;
+  padding-bottom: 3%;
+  
+}
+
+#nuestronegocio12 .contborblu {
+   border: 1px solid #00539b;
+   margin-top: 20px;
+
+}
+
+#nuestronegocio12 .contborblu .bgwhite {
+  border-left: 8px solid #00539b;
+ 
+    
+
+}
+
+#nuestronegocio12 .contbororang {
+  border: 1px solid #e97119;
+  margin-top: 20px;
+
+}
+
+#nuestronegocio12 .contbororang .bgwhite {
+ border-left: 8px solid #e97119;
+
+   
+
+}
+
+#nuestronegocio12 .contboryelo {
+  border: 1px solid #fdb71a;
+  margin-top: 20px;
+
+}
+
+#nuestronegocio12 .contboryelo .bgwhite {
+ border-left: 8px solid #fdb71a;
+
+   
+
+}
+
+#nuestronegocio12 .contborgree {
+  border: 1px solid #7cc04b;
+  margin-top: 20px;
+
+}
+
+#nuestronegocio12 .contborgree .bgwhite {
+ border-left: 8px solid #7cc04b;
+
+
+}
+
+#nuestronegocio12 .contborgreyb {
+  border: 1px solid #4a5b6d;
+  margin-top: 20px;
+
+}
+
+#nuestronegocio12 .contborgreyb .bgwhite {
+ border-left: 8px solid #4a5b6d;
+
+
+}
+
+#nuestronegocio12  .icosimgs {
+  width: 70px;
+  display: block;
+  margin: 15px auto 5px;
+  height: auto;
+}
+
+#nuestronegocio12  .txtnumberf24 {
+  margin-top: 13%;
+}
+
+#nuestronegocio12 .mt20 {
+
+  margin-top: 20px;
+
+}
+
+#nuestronegocio12 .contborgreyb2 {
+  border: 1px solid #4a5b6d;
+  height: 100%;
+
+}
+
+#nuestronegocio12 .contborgreyb2 .btnprincipaldark {
+  font-size: 12px;
+margin: auto;
+
+}
+
+#nuestronegocio14 {
+  overflow: hidden;
+  height: auto;
+  padding-top: 0;
+  padding-bottom: 3%;
   height: 86vh;
   
 }
 
+#nuestronegocio14 .bgblueligh {
+  background-image: url(../img/nuestro-negocio/imgtxtregenerativa.svg);
+  background-size: cover;
+  background-position: 0 -30px;
+  background-repeat: no-repeat;
+  height: 317px;
+}
 
+#nuestronegocio14 h3 {
+  margin-top: 10%;
+  
+}
+
+#nuestronegocio15 {
+  background-image: url(../svg/fraseregenerativwht.svg);
+  background-size: 100% 185px;
+  background-repeat: no-repeat;
+  background-position: 0 107%;
+  overflow: hidden;
+  padding-top: 0;
+  padding-bottom: 3%;
+  height: 86vh;
+  
+}
+
+#nuestronegocio15 .mtop90 {
+  margin-top: 90px;
+  
+}
+
+
+#nuestronegocio15 .conthiglbig {
+  
+  width: 60%;
+  margin:50% auto;
+}
+
+#nuestronegocio15 .icoyellcirbig {
+
+  margin: 10px 10px 0 0;
+}
+
+#nuestronegocio15 .conthiglbig h4 {
+  font-size: 28px;
+  line-height: 1.5em;
+  
+}
+
+#nuestronegocio16  {
+  
+ height: auto;
+}
+
+#nuestronegocio16 .col-lg-6 {
+
+  padding: 25px 25px;
+
+ }
+
+ #nuestronegocio16 .icosvine {
+  width: 35px;
+  margin: 0 20px 0 0;
+  height: 35px;
+}
+
+#nuestronegocio16 .txthighlightup {
+  margin-top: 25px;
+}
+
+#nuestronegocio16 .contvinets {
+  margin-bottom: 15px;
+
+}
+
+#nuestronegocio16 .txtvinetas {
+  text-transform: none;
+  font-family: Bogle-Regular;
+  margin-bottom: 0px;
+  padding-top: 5px;
+
+}
+
+#nuestronegocio17  {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  height: auto;
+}
+
+#nuestronegocio17 .contvinets  {
+  
+  margin-top: 30px;
+  margin-bottom: 30px;
+} 
+
+#nuestronegocio17 .txthighlightup  {
+  
+  margin-top: 30px;
+  margin-bottom: 30px;
+} 
+
+#nuestronegocio17 .mtcustom {
+  margin-top: 40px;
+}
+
+#nuestronegocio17 .ico3blucir {
+   width: 140px;
+   margin-bottom: 30px;
+}
+
+#nuestronegocio18  {
+ 
+  height: auto;
+}
+
+
+#nuestronegocio18  .imgimagot{
+  display: block;
+  
+  margin:30px auto;
+  width: 80px;
+}
+
+#nuestronegocio18 .bggrey1 .txthighlightup {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+#nuestronegocio18 .bggrey1 .text-small {
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+#nuestronegocio18 .img3cirblu {
+  width: 265px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+#nuestronegocio18 .contcifras p {
+
+  line-height: 20px;
+}
+
+#nuestronegocio18 .contcifras .txtnumberf24 {
+
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+#nuestronegocio18 .contcifras .txtnumberf24 span {
+
+  font-family: Bogle-Regular;
+  font-size: 16px;
+
+}
+
+
+#nuestronegocio18 .contcifras .txtitle {
+  margin-bottom: 15px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+#nuestronegocio19 {
+padding-top: 3%;
+padding-bottom: 3%;
+height: 83vh;
+
+
+}
+
+#nuestronegocio19 .img-fluid {
+  margin-top: 30px;
+  position: absolute;
+  right: 90px;
+}
+
+#nuestronegocio20 {
+  margin-top: 3%;
+  
+  height: 75vh;
+  
+  
+}
+
+#nuestronegocio20 {
+  
+  
+    height: 75vh;
+    
+    
+} 
+
+#nuestronegocio20 .conticon p {
+  
+  
+ padding: 20px;
+  
+  
+} 
+
+#nuestronegocio20 .imgico {
+  height: 60px;
+  width: 60px;
+  display: block;
+  margin:20px auto;
+   
+} 
+
+#nuestronegocio21 {
+  
+  margin-bottom: 3%;
+  height: auto;
+  
+  
+}
+
+#nuestronegocio21 .bggrey1 {
+  
+ height: fit-content;
+  
+  
+}
+
+#nuestronegocio21 .contcifras {
+
+  padding: 10px;
+  margin: 5px ;
+  
+  
+  }
+
+#nuestronegocio21 .contcifras .img3cirblu {
+
+  width: 130px;
+  display: block;
+  margin: 15px auto;
+
+
+}
+
+#nuestronegocio21 .contcifras p {
+
+
+  line-height: 19px;
+  
+  }
+  
+
+#nuestronegocio21 .contcifras .txtitle {
+
+text-decoration: underline;
+margin-bottom: 15px;
+
+}
+
+#nuestronegocio22 {
+  margin-top: 3%;
+  height: auto;
+  margin-bottom: 3%;
+
+}
+
+#nuestronegocio22 {
+  margin-top: 3%;
+  height: auto;
+  margin-bottom: 3%;
+
+}
+
+#nuestronegocio22 .contbluta {
+
+  margin: 0;
+
+
+}
+
+
+#nuestronegocio22 .contbluta .col-lg-6 {
+
+  padding: 1px;
+
+
+}
+
+#nuestronegocio22 .contbluta p {
+  font-family: Bogle-Light;
+  line-height: 19px;
+  margin-bottom: 2px;
+  padding: 5px;
+  height: 89px;
+
+}
+
+#nuestronegocio22 .contbluta p .svgpoint {
+  font-size: 5px;
+    margin-bottom: 3px;
+}
+
+
+#nuestronegocio22 .bordall {
+  
+  border: 1px solid #007dc3;
+
+}
+
+#nuestronegocio22 .contmembrs p {
+
+  margin-bottom: 3px;
+  margin-top: 5px;
+
+}
+
+#nuestronegocio22 .contmembrs .btopbot {
+
+  border-top: 1px solid  #9b9b9b;
+  height: 20px;
+  border-bottom: 1px solid #9b9b9b;
+
+}
+
+#nuestronegocio22 .contmembrs .txtbtn {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+
+#nuestronegocio22 .contmembrs p .svgpoint{
+
+  font-size: 5px;
+  margin-bottom: 3px;
+
+}
+
+#nuestronegocio22  .imgphot { 
+  width: 84%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: -44px;
+    left: 45px;
+}
+
+
+#nuestronegocio23 {
+    overflow: hidden;
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 3%;
+    height: 86vh;
+    
+}
+  
+#nuestronegocio23 .bgblueligh {
+    background-image: url(../img/nuestro-negocio/imgtxtequipoasg.svg);
+    background-size: cover;
+    background-position: 0 -30px;
+    background-repeat: no-repeat;
+    height: 317px;
+}
+  
+#nuestronegocio23 .txthighlightup {
+    margin-top: 10%;
+    
+}
+
+#nuestronegocio23 p {
+
+  padding: 0 15%;
+  
+}
+
+#nuestronegocio23 .conespec {
+
+  padding: 0 15%;
+  
+}
+  
+#nuestronegocio24  {
+
+  padding-top: 3%;
+  padding-bottom: 3%;
+  
+}
+  
+#nuestronegocio24 .imgpactglo{
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+
+} 
+
+
+#nuestronegocio25 {
+background-color: #0078BF;
+background-image: url(../img/nuestro-negocio/imglinedecotop.svg);
+background-size:126vw 40px;
+background-position: left top;
+background-repeat: no-repeat;
+ height: 350px;
+ padding-top: 40px;
+
+} 
+
+#nuestronegocio25 .odscbtnprin {
+  
+  padding: 0;
+  
+
+}
+
+#nuestronegocio25 .odscbtnprin a {
+  width: 218px;
+  height: 39px;
+  display: block;
+  float: left;
+  
+
+}
+
+#nuestronegocio25 .odscbtnprin a.odsbtamb {
+  background-image: url(../img/valor_compartido/btnambiental.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  
+}
+
+#nuestronegocio25 .odscbtnprin a.odsbtamb:hover {
+  background-image: url(../img/valor_compartido/btnambientalhover.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  
+}
+
+
+
+#nuestronegocio25 .odscbtnprin a.odsbtsocial {
+  background-image: url(../img/valor_compartido/btn_social.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+  
+
+}
+
+#nuestronegocio25 .odscbtnprin a.odsbtsocial:hover {
+  background-image: url(../img/valor_compartido/btn_socialhover.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+  
+
+}
+
+#nuestronegocio25 .odscbtnprin a.odsbtgob {
+
+  background-image: url(../img/valor_compartido/btngobierno.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+
+}
+
+#nuestronegocio25 .odscbtnprin a.odsbtgob:hover {
+
+  background-image: url(../img/valor_compartido/btngobiernohover.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+
+}
+
+
+#nuestronegocio25 .odscont2 {
+  background-color: #6DAEDD;
+  height: 30px;
+  text-align: center;
+
+}
+
+#nuestronegocio25 .odscont2 p {
+  
+  color: #ffffff;
+  margin-top: 2px;
+  
+}
+
+#nuestronegocio25 .odscontbtt  {
+  
+ padding: 0;
+  
+}
+
+#nuestronegocio25 .odscontbtt a {
+  
+  width: 129px;
+  height: 130px;
+  margin:5px auto;
+  background-color: #EEF2F4;
+  float: left;
+  
+}
+
+#nuestronegocio25 .odscontbtt a.odsbt1 {
+  
+  background-image: url(../img/valor_compartido/ods1.png);
+  background-size:  cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#nuestronegocio25 .odscontbtt a.odsbt1:hover {
+  
+  background-image: url(../img/valor_compartido/ods1hover.png);
+  background-size:  cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+.active_num1 {
+  
+  background-image: url(../img/valor_compartido/ods1hover.png) !important;
+  
+  
+}
+
+#nuestronegocio25 .odscontbtt a.odsbt2 {
+  
+  background-image: url(../img/valor_compartido/ods2.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+  
+}
+
+#nuestronegocio25 .odscontbtt a.odsbt2:hover {
+  
+  background-image: url(../img/valor_compartido/ods2hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  
+}
+
+#nuestronegocio25 .odscontbtt a.odsbt3 {
+  
+  background-image: url(../img/valor_compartido/ods3.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+  
+}
+
+#nuestronegocio25 .odscontbtt a.odsbt3:hover {
+  
+  background-image: url(../img/valor_compartido/ods3hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  
+}
+
+#nuestronegocio25 .odscontbtt a.odsbt4 {
+  
+  background-image: url(../img/valor_compartido/ods4.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+}
+#nuestronegocio25 .odscontbtt a.odsbt4:hover {
+  
+  background-image: url(../img/valor_compartido/ods4hover.png);
+  background-size:  cover;
+  background-position: top;
+  background-repeat:  no-repeat;
+  
+}
+
+#nuestronegocio25 .odscontbtt a.odsbt5 {
+  
+  background-image: url(../img/valor_compartido/ods5.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  margin-left: 5px;
+}
+#nuestronegocio25 .odscontbtt a.odsbt5:hover {
+  
+  background-image: url(../img/valor_compartido/ods5hover.png);
+  background-size: cover;
+  background-position: top left;
+  background-repeat:  no-repeat;
+  
+}
+
+#nuestronegocio25 .imgcifra {
+  width: 130px;
+  height: 130px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  background-image: url(../img/nuestro-negocio/imgbtndownodss.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#nuestronegocio25 .bgbluetopdark {
+  height: 204px;
+}
+
+#nuestronegocio25 .mrlesp {
+  padding-left: 20px;
+}
+
+#nuestronegocio26 {
+  height: auto;
+}
+
+#nuestronegocio26 h3 {
+  margin-top: 20px;
+}
+
+#nuestronegocio26 .bgbluetopdark {
+ padding:  20px 5%;
+}
+
+#nuestronegocio27 {
+  height: auto;
+}
+
+#nuestronegocio27 h3 {
+  margin-top: 20px;
+}
+
+#nuestronegocio27 .bgyellow{
+ padding:  20px 5%;
+}
+
+#intersecllax2 {
+  height: 150px;
+}
+
+#intersecllax2 h3 {
+  margin-top: 25px;
+}
+
+#intersecllax2 .imgcifra {
+  width: 130px;
+  height: 130px;
+  display: block;
+  margin: 5px 0 0 25px;
+  /* margin: auto; */
+  /* margin-bottom: 30px; */
+  /* margin-top: 60px; */
+  background-image: url(../img/home/imgbtndowncifras.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 
 /*--------------------------------------------------------------
@@ -3232,7 +4100,7 @@ font-size: 12px;
   text-transform: uppercase;
   color:#fdb71a;
   font-weight:700;
-  font-size:2em;
+  font-size:28px;
   line-height:1;
   margin-bottom: 0px;
 }
